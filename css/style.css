@@ -1,0 +1,354 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 14px;
+line-height: 28px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+text-decoration: none;
+}
+/********************************Header-section css start************************/
+.header-section{
+width: 100%;
+}
+.header-section .top-header{
+width: 100%;
+padding: 10px 0px;
+background: #f5f7fa;
+}
+.header-section .top-header .details{
+}
+.header-section .top-header .details li{
+list-style: none;
+display: inline-block;
+margin-right: 15px;
+}
+.header-section .top-header .details li a{
+font-size: 14px;
+font-weight: 400;
+color: #9aa9ba;
+}
+.header-section .top-header .details li a i{
+margin-right: 5px;
+}
+.header-section .top-header .social-icon{
+text-align: right;
+}
+.header-section .top-header .social-icon li{
+list-style: none;
+display: inline-block;
+margin-right: 15px;
+}
+.header-section .top-header .social-icon li a{
+font-size: 14px;
+font-weight: 400;
+color: #9aa9ba;
+}
+.header-section .top-header .social-icon li a i{
+margin-right: 5px;
+}
+.header-section .top-header .social-icon li a i:hover{
+color: #00bc9c;
+}
+.header-section .main-menu{
+width: 100%;
+}
+.header-section .main-menu .container{
+width: 100%;
+padding: 10px 0px;
+}
+.header-section .main-menu .bg-light {
+background-color: #fff!important;
+}
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+font-size: 13px;
+font-weight: 600;
+color: #506a85;
+margin-left: 25px;
+text-transform: uppercase;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link{
+font-size: 13px;
+font-weight: 600;
+color: #506a85;
+text-transform: uppercase;
+margin-right: 10px;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #00bc9c;
+}
+.header-section .main-menu i{
+margin-right: 40px;
+color: #506a85;
+}
+.header-section .main-menu i:hover{
+	color: #00bc9c;
+}
+/********************************Header-section css end************************/
+/********************************banner-section css start*********************/
+.banner-section{
+width: 100%;
+padding: 170px 0px;
+background: url(../images/bg.png) center top no-repeat;
+background-size: cover;
+text-align: center;
+}
+.banner-section .banner-inner{
+width: 100%;
+}
+.banner-section .banner-inner h1{
+text-transform: uppercase;
+color: #fff;
+font-weight: 600;
+letter-spacing: 2px;
+font-size: 50px;
+}
+.banner-section .banner-inner p{
+color: #9eacbb;
+font-weight: 400;
+line-height: 22px;
+}
+.banner-section .banner-inner .banner-btn{
+width: 100%;
+margin-top: 30px;
+}
+.banner-section .banner-inner .banner-btn .btn-info{
+padding: 8px 35px;
+text-transform: uppercase;
+color: #fff;
+font-weight: 600;
+background: #00bc9c;
+}
+.banner-section .banner-inner .banner-btn .btn-info:hover{
+background: transparent;
+transition: 0.5s ease-in;
+border: 1px solid #00bc9c;
+}
+/********************************banner-section css end*********************/
+/********************************who-section css start*********************/
+.who-section{
+width: 100%;
+padding: 70px 0px;
+}
+.who-section .who-up {
+width: 100%;
+text-align: center;
+}
+.who-section .who-up h2{
+color: #506a85;
+font-weight: 700;
+margin-bottom: 15px;
+}
+.who-section .who-up p{
+font-size: 17px;
+color: #506a85;
+margin-bottom: 50px;
+}
+.who-section .who-in{
+margin-top: 20px;
+}
+.who-section .who-in h3{
+color: #60778f;
+font-weight: 500;
+}
+.who-section .who-in h3 img{
+margin-right: 10px;
+width: 45px;
+}
+.who-section .who-in p{
+color: #95a3b3;
+padding-left: 60px;
+}
+.who-section .who-in1{
+margin-top: 15px;
+}
+.who-section .who-in1 h3 span{
+color: #60778f;
+font-weight: 500;
+margin-left: 5px;
+
+}
+.who-section .who-in1 h3 img{
+margin-right: 10px;
+width: 35px;
+}
+.who-section .who-in1 p{
+color: #95a3b3;
+padding-left: 60px;
+margin-top: -4px;
+}
+/********************************who-section css end*********************/
+/********************************work-section css start*********************/
+.work-section{
+width: 100%;
+padding: 70px 0px;
+background: #f2f5f7;
+}
+.work-section .work-header{
+width: 100%;
+}
+.work-section .work-header h2{
+color: #506a85;
+font-weight: 700;
+}
+.work-section .work-header p{
+color: #95a3b3;
+margin-bottom: 45px;
+}
+.work-section .card-inner{
+width: 100%;
+margin-bottom: 60px;
+}
+.work-section .card-inner .card-body h4{
+color: #506a85;
+}
+.work-section .card-inner .card-body p{
+color: #506a85;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+margin-top: 30px;
+}
+.owl-theme .owl-dots .owl-dot span{
+background: #506a85;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+background: #00bc9c;
+}
+/********************************work-section css end*********************/
+
+/********************************touch-section css start*********************/
+.touch-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.touch-section .touch-inner h2{
+color: #506a85;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.touch-section .touch-inner p{
+color: #506a85;
+margin-bottom: 25px;
+line-height: 20px;
+font-weight: 500;
+}
+.touch-section .touch-inner .touch-btn .btn-info{
+	padding: 8px 25px;
+text-transform: uppercase;
+color: #fff;
+font-weight: 600;
+background: #00bc9c;
+
+}
+.touch-section .touch-inner .touch-btn .btn-info:hover{
+	color:#00bc9c;
+	background: transparent;
+	border: 1px solid #00bc9c;
+	transition: 0.5s ease-in;
+}
+
+/********************************touch-section css end*********************/
+
+/********************************feature-section css start*********************/
+.feature-section {
+	width: 100%;
+	padding: 50px 0px;
+	background: #2f4052;
+}
+.feature-section h6{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 20px;
+
+}
+.feature-section p{
+	color: #91a0ae;
+	line-height: 20px;
+}
+.feature-section .feature-inner1 p{
+	margin-top: 15px;
+
+}
+.feature-section .feature-inner1 a{
+	color: #91a0ae;
+	font-weight: 600;
+	font-size: 15px;
+
+}
+.feature-section .feature-inner1 a i{
+	margin-left: 5px;
+}
+.feature-section .feature-inner1 a:hover{
+	color: #fff;
+}
+
+.feature-section .feature-inner2 img{
+margin-bottom: 3px;
+
+}
+.feature-section .feature-inner3 ul{
+	list-style: none;
+}
+.feature-section .feature-inner3 ul li a{
+	color: #91a0ae;
+
+}
+.feature-section .feature-inner3 ul li a i{
+	margin-right: 4px;
+}
+.form-control{
+	font-size: 12px;
+}
+.input-group-append .btn{
+	padding: 3px 11px;
+	background: #00bc9c;
+	font-size: 14px;
+
+}
+.input-group-append .btn:hover{
+	background: #fff;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	transition: 0.5px;
+}
+
+
+ 
+
+
+/********************************feature-section css end*********************/
+
+/********************************footer-section css start*********************/
+.footer-section{
+	width: 100%;
+
+	background: #283645;
+
+}
+.footer-section .left-inner{
+	margin-top: 20px;
+}
+.footer-section .left-inner p{
+		color: #91a0ae;
+}
+.footer-section .right-inner{
+	margin-top: 20px;
+}
+.footer-section .right-inner p{
+	text-align: right;
+	color: #91a0ae;
+	font-weight: 600;
+}
+
+
+
+
+/********************************footer-section css end*********************/
